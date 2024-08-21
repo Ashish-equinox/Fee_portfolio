@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5 pt-5">
+        <section id="about" class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="https://i.pinimg.com/564x/08/0a/85/080a85c3f001060fe312a63cc265bd00.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm Ashish Raj, a passionate software developer skilled in C++, JavaScript, HTML, and CSS. With a strong foundation in these languages, I've created several projects that demonstrate my expertise in web development and programming. I'm always eager to learn and take on new challenges in the tech world.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="mt-5">
+            <h2>My Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://cdn.pixabay.com/photo/2019/08/11/09/18/workplace-4398485_1280.jpg" class="card-img-top" alt="1-- Notepad">
+                        <div class="card-body">
+                            <h5 class="card-title">1-- Notepad</h5>
+                            <p class="card-text">The Notepad project, created using just HTML and CSS, is a simple yet effective text editing application designed for basic note-taking. The project features a clean, user-friendly interface with a text area where users can type, edit, and save notes. It demonstrates the core capabilities of HTML for structure and CSS for styling, providing a minimalist design with essential functionalities. Despite its simplicity, this project is a great example of how foundational web technologies can be leveraged to build practical, everyday tools.</p>
+                            <button class="btn btn-primary view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://img.freepik.com/free-photo/hot-latte-coffee-white-cup-table_74190-6237.jpg?w=740&t=st=1724231239~exp=1724231839~hmac=5647110c0e2ab8dedf24d9f4b803e6602f3e0e3adc5363e8a95619a6f708ed20" class="card-img-top" alt="2-- Cafe Retail">
+                        <div class="card-body">
+                            <h5 class="card-title">2-- Cafe Retail</h5>
+                            <p class="card-text">The Café Retail Site project is a sleek, user-friendly web application designed to showcase a modern café's menu, services, and ambiance. Built entirely with HTML, CSS, and JavaScript, the site features a responsive design that adapts seamlessly to various devices. The project highlights key offerings such as daily specials, customer reviews, and a contact form for reservations. Interactive elements, like animated buttons and smooth scrolling, enhance the user experience that enhances customer service and support.</p>
+                            <button class="btn btn-primary view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?w=996&t=st=1724231793~exp=1724232393~hmac=cff31186f60bb909dd8059ed632994fa93781eccc430700406b1cbd459064c54" class="card-img-top" alt="3-- E-Commerce">
+                        <div class="card-body">
+                            <h5 class="card-title">3-- E-Commerce</h5>
+                            <p class="card-text">The E-Commerce Site project is a dynamic, user-focused web platform designed to facilitate online shopping for a wide range of products. Developed using HTML, CSS, and JavaScript, the site offers a responsive design that ensures a seamless experience across all devices. The project features an intuitive navigation system, detailed product listings, and a secure checkout process. Key elements like product filtering, customer reviews, and promotional banners enhance the shopping experience, while interactive features, such as dynamic cart updates and smooth transitions, contribute to efficient customer service and support.</p>
+                            <button class="btn btn-primary view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://media.istockphoto.com/id/499517325/photo/a-man-speaking-at-a-business-conference.jpg?s=612x612&w=is&k=20&c=PYFNqjY1JVRpK451fSd2RjwpmwYX_A83361odi1Lfkg=" class="card-img-top" alt="4-- Event Manager">
+                        <div class="card-body">
+                            <h5 class="card-title">4-- Event Manager</h5>
+                            <p class="card-text">The Event Manager Site project is a dynamic, web-based application tailored to streamline the planning and organization of various events. Created using HTML, CSS, and JavaScript, the site offers a responsive interface that works smoothly across different devices. It features essential tools such as event calendars, booking forms, and client testimonials, providing a comprehensive platform for managing events. Interactive features, like real-time updates and user-friendly navigation, enhance the overall experience, ensuring efficient communication and support for both event organizers and clients.</p>
+                            <button class="btn btn-primary view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="text-center">
+        <p>&copy; 2024 Ashish Raj. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
